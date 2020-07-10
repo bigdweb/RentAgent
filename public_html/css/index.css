@@ -52,7 +52,7 @@ margin-left: 30px;
      font-size: 35px;
      font-weight: bold;
      font-family: cursive;
-     margin-left: 15px;
+     margin-left: 40px;
      margin-top: 20px;
      float: left
 }
@@ -79,7 +79,7 @@ margin-left: 30px;
                border: none;
                color: #fff;
                background: brown;
-               margin-left: -10px;   
+               margin-left: -8px;   
 }
 
 /*...this style for navigation bar*/
@@ -132,7 +132,7 @@ transition: all .3s ease-in-out;
     float: left;
     color: #laaala;
     font-size: 20px;
-    margin-top: -20px;
+    margin-top: -100px;
 }
 #heading-block h2{
     line-height: 35px;
@@ -142,12 +142,12 @@ transition: all .3s ease-in-out;
 
 /*=========category boxes========*/
 .catbox{
-    width: 235px;
-    height: 235px;
+    width: 200px;
+    height: 200px;
     float: left;
     overflow: hidden;
     position: relative;
-    margin: 0 15px 30px 0;
+    margin: 0px 36px 10px 0px;
 }
 .catbox span{
     width: 100%;
@@ -208,19 +208,22 @@ transition: all .3s ease-in-out;
      float: left;
 }
 .subs{
-        width: 180px;
+        width: 100%;
         border: none;
-        height: 35px;
+        height: 20px;
         float: left;
 }
 .sub_btn{
-    height: 35px;
+    width: 10%;
+    height: 20px;
     border: none;background: #ff00cc;
     float: left;
+    text-align: center;
+    margin-left: 20%;
 }
 .sub_p{
     color: #ff00cc;
-    font-size: 15px;
+    font-size: 12px;
     font-style: italic;
     text-decoration: none;
 }
@@ -238,26 +241,28 @@ transition: all .3s ease-in-out;
     float: left;
 }
 .search-1{
-    width: 100%;
-    height: 300px;
+    width: 650px;
+    height: 500px;
     background: #666;
     float: left;
     margin-bottom: 20px;
+    margin-left: 2.5%;
 }
-.search-region{
+.search-all{
     float: left;
-    margin-top: 40px;
+    /*margin-top: 40px;*/
     margin-left: 10px;
     color: brown;
 }
 .sea-p{
-    float: left;
+    /*float: left;*/
     margin-top: 40px;
     margin-left: 10px;
     font-weight: bold;
     color: antiquewhite;
+    text-align: left;
 }
-.search-dist{
+/*.search-dist{
     float: left;
     margin-top: 40px;
     margin-left: 10px;
@@ -272,17 +277,18 @@ transition: all .3s ease-in-out;
     float: left;
     margin-top: 40px;
     margin-left: 10px;
-}  
+} */ 
 .htop{
     text-align: center;
     color: #fff;
     font-weight: bolder;
 }
 .search-bt{
-    height: 30px;
+    width: 100px;
+    height: 40px;
     float: left;
     margin-top: 35px;
-    margin-left: 10px;
+    margin-left: -25%;
     border-radius: 10px;
     border: none;
     color: #fff;
@@ -300,9 +306,10 @@ transition: all .3s ease-in-out;
     margin-bottom: 10px;
 }
 .form{
-    text-align: center;
+    text-align: left;
     font-size: 20px;
     color: #000066;
+    float: right;
 }
 
 
