@@ -53,6 +53,7 @@ and open the template in the editor.-->
             <a href="tenantForm.html">Tenant</a>
             <a href="landLordForm.html">Landlord/lady</a>
             <a href="agentForm.html">Agent</a>
+            <a href="gallery.html">Gallery</a>
             <a href="news.html">Media</a>
             <A href="contactUs.html">Contact Us</A>
         </nav>
@@ -79,35 +80,35 @@ and open the template in the editor.-->
             <h2>Categories</h2>
         </div>
 <!-- 1st catbox -->
-        <a href="#">
+        <a href="gallery.html">
         <div class="catbox">
         <img src="images/single room.jpg" alt="Single Room Apartments">
         <span>Single Room Apartments</span>
         </div>
         </a>
 <!-- 2nd catbox -->
-        <a href="#">
+        <a href="gallery.html">
         <div class="catbox">
         <img src="images/ch room.jpg" alt="Chamber & Hall Apartments">
         <span>Chamber & Hall Apartments</span>
         </div>
         </a>
 <!-- 3rd catbox -->
-        <a href="#">
+        <a href="gallery.html">
         <div class="catbox">
         <img src="images/2bedroom.jpg" alt="2-Bedroom Apartments">
         <span>2-Bedroom Apartments</span>
         </div>
         </a>
 <!-- 4th catbox -->
-        <a href="#">
+        <a href="gallery.html">
         <div class="catbox">
         <img src="images/3bedroom.jpg" alt="3-Bedroom Apartments">
         <span>3-Bedroom Apartments</span>
         </div>
         </a>
 <!-- 5th catbox -->
-        <a href="#">
+        <a href="gallery.html">
         <div class="catbox">
         <img src="images/storey.jpg" alt="Storey Apartments">
         <span>Storey Apartments</span>
@@ -176,9 +177,44 @@ and open the template in the editor.-->
         
             <p class="sea-p">Area/Community:</p>
             <input class='search-all' type="text" name='text' placeholder="Enter Area or Community..."/>
+
             <p class="sea-p">Type of Residence:</p>
-            <input class='search-all' type="text" name='text' placeholder="Enter Type of Residence..."/>
+            <select class="search-all">
+            <option>Select Residence</option>
+            <option>Single Room (No Porch)</option>
+            <option>Single Room (With Porch)</option>
+            <option>Single Room Self-Contain (Unfurnished)</option>
+            <option>Single Room Self-Contain (Furnished)</option>
+            <option>Uncompleted Single Room Apartment</option>
+            <option>Chamber & Hall (No Porch)</option>
+            <option>Chamber & Hall (With Porch)</option>
+            <option>Chamber & Hall Self-Contain (Unfurnished)</option>
+            <option>Chamber & Hall Self-Contain (Furnished)</option>
+            <option>Uncompleted Chamber & Hall Apartment</option>
+            <option>2-Bedroom Apartment Self-Contain (Unfurnished)</option>
+            <option>2-Bedroom Apartment Self-Contain (Furnished)</option>
+            <option>3-Bedroom Apartment Self-Contain (Unfurnished)</option>
+            <option>3-Bedroom Apartment Self-Contain (Furnished)</option>
+            <option>4-Bedroom Apartment Self-Contain (Unfurnished)</option>
+            <option>4-Bedroom Apartment Self-Contain (Furnished)</option>
+            <option>5 & Above-Bedroom Apartment Self-Contain (Unfurnished)</option>
+            <option>5 & Above-Bedroom Apartment Self-Contain (Furnished)</option>
+            <option>Uncompleted Self-Contain Apartment</option>
+            <option>1-Storey Apartment (Unfurnished)</option>
+            <option>1-Storey Apartment (Furnished)</option>
+            <option>2-Storey Apartment (Unfurnished)</option>
+            <option>2-Storey Apartment (Furnished)</option>
+            <option>3-Storey Apartment (Unfurnished)</option>
+            <option>3-Storey Apartment (Furnished)</option>
+            <option>4-Storey Apartment (Unfurnished)</option>
+            <option>4-Storey Apartment (Furnished)</option>
+            <option>5 & Above-Storey Apartment (Unfurnished)</option>
+            <option>5 & Above-Storey Apartment (Furnished)</option>
+            <option>Uncompleted Storey Apartment</option>
+            </select>
+
             <input class="search-bt" type="submit" name='submit' value="Search"/>
+            <input class="clear-bt" type="reset" name='reset' value="Clear"/>
     </form>
  </div>
  </div>       
