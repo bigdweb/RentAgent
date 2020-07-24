@@ -59,19 +59,76 @@ and open the template in the editor.
     </div>
     </div>
     
-<!-- slider -->
-    <div id='slider'>
-        <ul class="bxslider">
-            <li><img src="images/slid1.jpg" title=" "/></li>
-            <li><img src="images/slid2.jpg" title=" "/></li>
-            <li><img src="images/slid3.jpg" title=" "/></li>
-            <li><img src="images/slid4.jpg" title=" "/></li>
-            <li><img src="images/slid5.jpg" title=" "/></li>
-            <li><img src="images/slid6.jpg" title=" "/></li>
-            <li><img src="images/slid7.jpg" title=" "/></li>
-            <li><img src="images/slid8.jpg" title=" "/></li>
-        </ul>
+<!-- Agent form -->
+<div class="container form">
+  <div class="row">
+    <div class="col-md-7">
+      <div class="row">
+        <div class="form-group col-md-12">
+          <h2>Tell us About Your Accommodation Interests!</h2>
+          <p style="color: #000">Contact us today to discuss your preferred Accommodation or Rent Plans!</p>
+        </div>
+      </div>
+      <form name="contactForm" id="contactForm" method="POST" action="">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="control-group">
+              <label>First Name</label>
+              <input type="text" class="demo-default form-control" placeholder="First Name">
+            </div>
+            <div class="control-group">
+              <label>Last Name</label>
+              <input type="text" class="demo-default form-control" placeholder="Last Name">
+            </div>
+            <div class="control-group">
+              <label>Gender</label>
+              <input type="text" class="demo-default form-control" placeholder="Company">
+            </div>
+            <div class="control-group">
+              <label>Phone #</label>
+              <input type="text" class="demo-default form-control" placeholder="Phone #">
+            </div>
+            <div class="control-group">
+              <label>Email</label>
+              <input type="text" class="demo-default form-control" placeholder="yourname@domain.com">
+            </div>
+            <div class="control-group">
+              <label for="select-beast">I'm Interested As:</label>
+              <select id="select-beast" class="demo-default" placeholder="Select a service...">
+                <option value="">Select Status</option>
+                <option value="4">Tenant</option>
+                <option value="1">LandLord/Lady</option>
+                <option value="3">Agent</option>
+                <option value="5">Rent Controller</option>
+                <option value="5">NGO</option>
+                <option value="5">Other</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="form-group col-md-12 text-center">
+            <input type="submit" class="btn btn-primary" value="Contact Us">
+          </div>
+        </div>
+      </form>
     </div>
+    <div class="col-md-5 contact-right-info">
+      <h2>Main OFFICE</h2>
+      <p style="color: #000000">AN/1/B33 Abrantie, Awoshie<br />
+        Accra, Ghana<br />
+        <a href="tel:0246679470">024-667-9470</a>
+      </p>
+      <h2>EMAIL ADDRESS</h2>
+      <a href="mailto:rentagentgh@gmail.com">rentagentgh@gmail.com</a>
+      <h2>SUPPORT</h2>
+      <a href="tel:0592040225">059-204-0225</a><br />
+      <a href="mailto:rentagentgh@gmail.com">rentagentgh@gmail.com</a>
+    </div>
+  </div>
+</div>
+<!--  end agent form  -->
             
 <!-- the footer -->
     <div id="footer">
