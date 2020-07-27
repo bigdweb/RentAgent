@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>housingAgent-Agent Form</title>
+        <title>RentAgent-Agent Form</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -31,18 +31,18 @@ and open the template in the editor.
     <div id='main-header'>
 <!--logo-->
         <div id='logo'>
-            <img id='ist' src="images/logo.jpg" title="logo"/>
+            <img id='ist' src="images/co.jpg" title="logo"/>
         </div>
         <div id='iist'>
-            <span>housingAgent</span> 
+            <span>RentAgent Gh</span> 
         </div>
-<!--search area-->
+<!--search area
         <div id='search'>
         <form action="">
             <input class='search-area' type="text" name='text' placeholder="Search..."/>
             <input class="search-button" type="submit" name='submit' value="SEARCH"/>
         </form>
-        </div>
+        </div>-->
     </div>
    
 <!-- navigation bar -->
@@ -53,79 +53,154 @@ and open the template in the editor.
             <a href="tenantForm.html">Tenant</a>
             <a href="landLordForm.html">Landlord/lady</a>
             <a href="agentForm.html">Agent</a>
+            <a href="gallery.html">Gallery</a>
             <a href="news.html">Media</a>
             <a href="contactUs.html">Contact Us</a>
         </nav>
     </div>
     </div>
     
-<!-- Agent form -->
+<!-- agent form -->
 <div class="container form">
   <div class="row">
     <div class="col-md-7">
       <div class="row">
         <div class="form-group col-md-12">
-          <h2>Tell us About Your Accommodation Interests!</h2>
-          <p style="color: #000">Contact us today to discuss your preferred Accommodation or Rent Plans!</p>
+          <h2>AGENT FORM</h2>
+          <p style="color: #000">Are you an accommodation Agent? Kindly fill the form below:</p>
         </div>
       </div>
       <form name="contactForm" id="contactForm" method="POST" action="">
         <div class="row">
           <div class="col-md-12">
             <div class="control-group">
-              <label>First Name</label>
-              <input type="text" class="demo-default form-control" placeholder="First Name">
+              <label>First Name:</label>
+              <input type="text" class="demo-default form-control" placeholder="First Name...">
             </div>
             <div class="control-group">
-              <label>Last Name</label>
-              <input type="text" class="demo-default form-control" placeholder="Last Name">
+              <label>Last Name:</label>
+              <input type="text" class="demo-default form-control" placeholder="Last Name...">
             </div>
             <div class="control-group">
-              <label>Gender</label>
-              <input type="text" class="demo-default form-control" placeholder="Company">
-            </div>
-            <div class="control-group">
-              <label>Phone #</label>
-              <input type="text" class="demo-default form-control" placeholder="Phone #">
-            </div>
-            <div class="control-group">
-              <label>Email</label>
-              <input type="text" class="demo-default form-control" placeholder="yourname@domain.com">
-            </div>
-            <div class="control-group">
-              <label for="select-beast">I'm Interested As:</label>
-              <select id="select-beast" class="demo-default" placeholder="Select a service...">
-                <option value="">Select Status</option>
-                <option value="4">Tenant</option>
-                <option value="1">LandLord/Lady</option>
-                <option value="3">Agent</option>
-                <option value="5">Rent Controller</option>
-                <option value="5">NGO</option>
-                <option value="5">Other</option>
+              <label>Gender:</label>
+              <select id="select-beast" class="demo-default" placeholder="Select your gender...">
+                <option value="">Select Gender...</option>
+                <option value="4">Male</option>
+                <option value="1">Female</option>
               </select>
+            </div>
+            <div class="control-group">
+              <label>Phone #:</label>
+              <input type="text" class="demo-default form-control" placeholder="Phone #...">
+            </div>
+            <div class="control-group">
+              <label>Email:</label>
+              <input type="text" class="demo-default form-control" placeholder="yourname@domain.com...">
+            </div>
+             <div class="control-group">
+              <label>Region:</label>
+            <select id="select-beast" class="demo-default" placeholder="Select region...">
+            <option>Select Region...</option> 
+            <option>Ahafo</option>
+            <option>Ashanti</option>
+            <option>Bono</option>
+            <option>Bono East</option>
+            <option>Central</option>
+            <option>Eastern</option>
+            <option>Greater Accra</option>
+            <option>North East</option>
+            <option>Northern</option>
+            <option>Oti</option>
+            <option>Savannah</option>
+            <option>Upper East</option>
+            <option>Upper West</option>
+            <option>Volta</option>
+            <option>Western</option>
+            <option>Western North</option>
+            </select>
+            </div>
+             <div class="control-group">
+              <label>District:</label>
+            <select id="select-beast" class="demo-default" placeholder="Select district...">
+            <option>Select District...</option>
+            <option>Ablekuma North Municipal</option>
+            <option>Ablekuma West Municipal</option>
+            <option>Accra Metropolitan</option>
+            <option>Ada East</option>
+            <option>Ada West</option>
+            <option>Adenta Municipal</option>
+            <option>Ashaiman Municipal</option>
+            <option>Ayawaso East Municipal</option>
+            <option>Ayawaso North Municipal</option>
+            <option>Ayawaso West Municipal</option>
+            <option>Ga Central District</option>
+            <option>Ga East Municipal</option>
+            <option>Ga North Municipal</option>
+            <option>Ga South Municipal</option>
+            <option>Ga West Municipal</option>
+            <option>Kpone Katamanso Municipal</option>
+            <option>Krowor Municipal</option>
+            <option>La Dade Kotopon Municipal</option>
+            <option>La Nkwantanang Madina Municipal</option>
+            <option>Ledzokuku Municipal</option>
+            <option>Ningo Prampram</option>
+            <option>Okaikwei Municipal</option>
+            <option>Shai Osudoku</option>
+            <option>Tema Metropolitan</option>
+            <option>Tema West Municipal</option>
+            <option>Weija Municipal</option>       
+            </select>
+            </div> 
+
+            <div class="control-group">
+            <label for="select-beast">I Have the Residence Below for Rent/Sale/Lease:</label>
+            <select id="select-beast" class="demo-default" placeholder="Select residence...">
+            <option>Select Residence...</option>
+            <option>Single Room (No Porch)</option>
+            <option>Single Room (With Porch)</option>
+            <option>Single Room Self-Contain (Unfurnished)</option>
+            <option>Single Room Self-Contain (Furnished)</option>
+            <option>Uncompleted Single Room Apartment</option>
+            <option>Chamber & Hall (No Porch)</option>
+            <option>Chamber & Hall (With Porch)</option>
+            <option>Chamber & Hall Self-Contain (Unfurnished)</option>
+            <option>Chamber & Hall Self-Contain (Furnished)</option>
+            <option>Uncompleted Chamber & Hall Apartment</option>
+            <option>2-Bedroom Apartment Self-Contain (Unfurnished)</option>
+            <option>2-Bedroom Apartment Self-Contain (Furnished)</option>
+            <option>3-Bedroom Apartment Self-Contain (Unfurnished)</option>
+            <option>3-Bedroom Apartment Self-Contain (Furnished)</option>
+            <option>4-Bedroom Apartment Self-Contain (Unfurnished)</option>
+            <option>4-Bedroom Apartment Self-Contain (Furnished)</option>
+            <option>5 & Above-Bedroom Apartment Self-Contain (Unfurnished)</option>
+            <option>5 & Above-Bedroom Apartment Self-Contain (Furnished)</option>
+            <option>Uncompleted Self-Contain Apartment</option>
+            <option>1-Storey Apartment (Unfurnished)</option>
+            <option>1-Storey Apartment (Furnished)</option>
+            <option>2-Storey Apartment (Unfurnished)</option>
+            <option>2-Storey Apartment (Furnished)</option>
+            <option>3-Storey Apartment (Unfurnished)</option>
+            <option>3-Storey Apartment (Furnished)</option>
+            <option>4-Storey Apartment (Unfurnished)</option>
+            <option>4-Storey Apartment (Furnished)</option>
+            <option>5 & Above-Storey Apartment (Unfurnished)</option>
+            <option>5 & Above-Storey Apartment (Furnished)</option>
+            <option>Uncompleted Storey Apartment</option>
+            </select>
             </div>
           </div>
         </div>
         <br>
         <div class="row">
           <div class="form-group col-md-12 text-center">
-            <input type="submit" class="btn btn-primary" value="Contact Us">
+            <input type="submit" class="btn btn-primary" value="Submit">
+            <input type="clear" class="btn btn-primary" value="Clear">
           </div>
         </div>
       </form>
     </div>
-    <div class="col-md-5 contact-right-info">
-      <h2>Main OFFICE</h2>
-      <p style="color: #000000">AN/1/B33 Abrantie, Awoshie<br />
-        Accra, Ghana<br />
-        <a href="tel:0246679470">024-667-9470</a>
-      </p>
-      <h2>EMAIL ADDRESS</h2>
-      <a href="mailto:rentagentgh@gmail.com">rentagentgh@gmail.com</a>
-      <h2>SUPPORT</h2>
-      <a href="tel:0592040225">059-204-0225</a><br />
-      <a href="mailto:rentagentgh@gmail.com">rentagentgh@gmail.com</a>
-    </div>
+
+
   </div>
 </div>
 <!--  end agent form  -->

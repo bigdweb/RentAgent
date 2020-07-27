@@ -461,7 +461,8 @@ h3 {
 }
 
 .btn-primary {
-  width: 100%;
+  width: 20%;
+  text-align: center;
 }
 
 .contact-right-info {
